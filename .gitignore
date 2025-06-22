@@ -1,1 +1,37 @@
-#  add file's  ignore pull - push 
+# Службові файли Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.vsidx
+*.VC.db
+*.VC.opendb
+*.sln.docstates
+
+# Build-результати
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# Пакети та залежності
+*.nupkg
+packages/
+*.log
+
+# Конфігурації та IDE
+*.DotSettings.user
+*.csproj.user
+*.dbmdl
+*.pdb
+*.sdf
+*.sqlite
+
+# OneDrive (опціонально, якщо проєкт на робочому столі)
+*.lnk
+~$*
+
+# OS тимчасові файли
+Thumbs.db
+ehthumbs.db
+Desktop.ini
